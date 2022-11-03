@@ -6,3 +6,16 @@ Explanation:
 
 Git Reflog command will show all the commits done in our project.
 GIt log command will show all commits along with the changes what we have added into our project
+
+
+Questions Number 6:
+
+How to change url for previous folder and push our project into new repository:
+
+Step1: 
+
+In the terminal 
+1) --git remote rename origin upstream
+2) git remote add origin "NEW URL"
+3) git push origin master
+4) git remote -v --------to check all remotes
